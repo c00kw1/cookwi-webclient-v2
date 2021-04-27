@@ -8,5 +8,4 @@
 .title__underline {
   position: absolute;
   background-color: var(--color-accent);
-  width: 33%;
 }

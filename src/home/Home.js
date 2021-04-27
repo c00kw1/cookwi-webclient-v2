@@ -8,8 +8,9 @@ function Home() {
       <h1>Le beau titre h1</h1>
       <h2>Le beau titre h2</h2>
       <h3>Le beau titre h3</h3>
+      <h4>Le beau titre h4</h4>
       <Title>
-        <h1>Inscription</h1>
+        <h1>Inscription un titre long comme tout</h1>
       </Title>
       <Title>
         <h2>Inscription</h2>
