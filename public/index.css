@@ -1,0 +1,48 @@
+@import url("./fonts.css");
+
+:root {
+  --color-primary: #90a4ae;
+  --color-primary-dark: #74848c;
+
+  --color-primary-lightgray: #c9d1d6;
+  --color-primary-gray: #858c8f;
+  --color-primary-darkgray: #52575a;
+
+  --color-accent: #f8d64c;
+  --color-accent-dark: #dfc046;
+
+  --color-accent-darkgray: #383730;
+
+  --color-third: #ada090;
+
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  color: var(--color-primary-darkgray);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--color-primary-darkgray);
+}
+
+h2 {
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--color-primary-darkgray);
+}
+
+h3 {
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--color-primary-darkgray);
+}
