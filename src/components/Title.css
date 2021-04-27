@@ -1,0 +1,12 @@
+.title {
+  position: relative;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title__underline {
+  position: absolute;
+  background-color: var(--color-accent);
+  width: 33%;
+}
