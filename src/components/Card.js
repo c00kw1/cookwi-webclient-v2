@@ -1,13 +1,6 @@
-import { useState } from "react";
 import "./Card.css";
 
 function Card(props) {
-  const [visible, setVisible] = useState(false);
-
-  function onClickHandler(event) {
-    setVisible(!visible);
-  }
-
   return (
     <div
       className="card"
@@ -17,8 +10,6 @@ function Card(props) {
       }}
     >
       {props.children}
-      <button onClick={onClickHandler}>coucou</button>
-      <p style={{ display: visible ? "block" : "none" }}>je peux me cacher</p>
     </div>
   );
 }
