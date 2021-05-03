@@ -1,6 +1,7 @@
 import Title from "../components/Title";
 import Card from "../components/Card";
 import "./Home.css";
+import Button from "../components/Button";
 
 function Home() {
   return (
@@ -25,6 +26,12 @@ function Home() {
         Bonjour je suis un sacre test de ouf car je permet de voir si la card se
         forme bien avec du contenu dedans
       </Card>
+      <br />
+      <br />
+      <Button>Button</Button>
+
+      <br />
+      <br />
       <br />
       <br />
     </div>
