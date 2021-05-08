@@ -1,0 +1,17 @@
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 15px;
+  width: fit-content;
+  height: 28px;
+  border-radius: 20px;
+  background-color: var(--color-accent);
+}
+
+.text {
+  font-size: 18px;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--color-accent-darkgray);
+}

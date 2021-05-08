@@ -1,0 +1,20 @@
+.input {
+  height: 67px;
+  border-radius: 10px;
+  border: 2px solid var(--color-primary-lightgray);
+  outline: none;
+  padding-left: 14px;
+  padding-right: 14px;
+
+  font-size: 18px;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  color: var(--color-primary-darkgray);
+}
+
+.input::placeholder {
+  color: var(--color-primary-gray);
+}
+
+.input:focus {
+  border-color: var(--color-accent);
+}

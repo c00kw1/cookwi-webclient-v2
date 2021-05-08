@@ -1,0 +1,11 @@
+.link {
+  font-size: 18px;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-dark);
+}

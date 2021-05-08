@@ -2,16 +2,21 @@ import Title from "../components/Title";
 import Card from "../components/Card";
 import "./Home.css";
 import Button from "../components/Button";
+import Logo from "../components/Logo";
+import Link from "../components/Link";
+import Tag from "../components/Tag";
+import Input from "../components/Input";
 
 function Home() {
   return (
     <div className="home">
+      <Logo />
       <h1>Le beau titre h1</h1>
       <h2>Le beau titre h2</h2>
       <h3>Le beau titre h3</h3>
       <h4>Le beau titre h4</h4>
       <Title>
-        <h1>Inscription un titre long comme tout</h1>
+        <h1>Inscription</h1>
       </Title>
       <Title>
         <h2>Inscription</h2>
@@ -28,7 +33,27 @@ function Home() {
       </Card>
       <br />
       <br />
-      <Button>Button</Button>
+      <Button>Primary</Button>
+      <br />
+      <br />
+      <Button color="accent">Accent</Button>
+      <br />
+      <br />
+      <Button size="medium">Primary</Button>
+      <br />
+      <br />
+      <Button color="accent" size="medium">
+        Accent
+      </Button>
+      <br />
+      <br />
+      <Link href="https://google.fr">Oh le lien</Link>
+      <br />
+      <br />
+      <Tag>un tag</Tag>
+      <br />
+      <br />
+      <Input placeholder="Adresse mail" type="password" />
 
       <br />
       <br />

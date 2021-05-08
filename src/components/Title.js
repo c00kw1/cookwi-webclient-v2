@@ -1,4 +1,4 @@
-import "./Title.css";
+import styles from "./Title.module.css";
 
 function Title(props) {
   var width = "";
@@ -33,10 +33,10 @@ function Title(props) {
   }
 
   return (
-    <div className="title">
+    <div className={styles.title}>
       {props.children}
       <span
-        className="title__underline"
+        className={styles.underline}
         style={{ width: width, height: height, right: right, bottom: bottom }}
       ></span>
     </div>
