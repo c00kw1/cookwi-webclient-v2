@@ -1,0 +1,25 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hamburger {
+  flex: 0 0 auto;
+  width: 50px;
+}
+
+.logo {
+  flex: 0 1 auto;
+  margin: auto;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.account {
+  width: 50px;
+  font-size: 3vw;
+}
