@@ -1,32 +1,23 @@
-import styles from "./App.module.css";
+import "./App.css";
 import Topbar from "./template/Topbar";
 import Footer from "./template/Footer";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./pages/home/Home";
-import ComponentsList from "./pages/components-list/ComponentsList";
-import PageNotFound from "./pages/PageNotFound";
+import { Link, Outlet } from "react-router-dom";
+import { push as Menu } from "react-burger-menu";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className={styles.app}>
-        <div className={styles.main}>
-          <Topbar />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/clist">
-              <ComponentsList />
-            </Route>
-            <Route path="*">
-              <PageNotFound />
-            </Route>
-          </Switch>
-          <Footer />
-        </div>
-      </div>
-    </BrowserRouter>
+    <div id="outer-container">
+      <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
+        <Link to="/">Home</Link>
+        <Link to="/recipes">Recipes</Link>
+        <Link to="/components">Components</Link>
+      </Menu>
+      <main id="page-wrap">
+        <Topbar />
+        <Outlet />
+        <Footer />
+      </main>
+    </div>
   );
 }
 

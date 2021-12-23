@@ -1,11 +1,12 @@
 import { useState } from "react";
 import styles from "./Hamburger.module.css";
 
-export default function Hamburger() {
+export default function Hamburger(props) {
   const [opened, setOpen] = useState(false);
 
   const clickHandler = () => {
     setOpen((prev) => !prev);
+    props.onClick(opened);
   };
 
   return (

@@ -20,6 +20,7 @@
 }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: lato, Arial, Helvetica, sans-serif;
   color: var(--color-primary-darkgray);
@@ -61,4 +62,9 @@ h4 {
   color: var(--color-primary-darkgray);
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-lightgray);
 }
