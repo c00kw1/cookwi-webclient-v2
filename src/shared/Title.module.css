@@ -5,7 +5,7 @@
   height: fit-content;
 }
 
-.title__underline {
+.underline {
   position: absolute;
   background-color: var(--color-accent);
 }

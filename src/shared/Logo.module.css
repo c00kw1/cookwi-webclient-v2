@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+}
+
+.text {
+  font-size: 72px;
+  font-family: lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--color-primary-darkgray);
+  padding: 20px;
+}
